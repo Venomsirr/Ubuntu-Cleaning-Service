@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Free Quote - Ubuntu Cleaning Service</title>
+    <meta name="description" content="Get a free quote for professional cleaning services in Florida, Roodepoort. Book online or call 079 025 6695">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Get Free Quote - Ubuntu Cleaning Service">
+    <meta property="og:description" content="Professional cleaning services quote in Florida, Roodepoort">
+    <meta property="og:image" content="images/contact-bg.jpg">
+    <meta property="og:url" content="https://ubuntucleaning.co.za/contact.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body class="contact-page">
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/27790256695" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <img src="images/logo.jpeg" alt="Ubuntu Cleaning Service Logo" class="logo-image">
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">UBUNTU</span>
+                        <span class="logo-sub">CLEANING SERVICE</span>
+                    </div>
+                </a>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-links">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="index.html#services" class="nav-link">Services</a>
+                    <a href="index.html#why-us" class="nav-link">Why Choose Us</a>
+                    <a href="index.html#testimonials" class="nav-link">Reviews</a>
+                    <a href="contact.html" class="btn btn-primary active">Get Quote</a>
+                    <a href="tel:0790256695" class="phone-link">
+                        <i class="fas fa-phone"></i>
+                        <span>079 025 6695</span>
+                    </a>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <a href="index.html" class="mobile-nav-link">Home</a>
+            <a href="index.html#services" class="mobile-nav-link">Services</a>
+            <a href="index.html#why-us" class="mobile-nav-link">Why Choose Us</a>
+            <a href="index.html#testimonials" class="mobile-nav-link">Reviews</a>
+            <a href="contact.html" class="btn btn-primary mobile-btn active">Get Quote</a>
+            <a href="tel:0790256695" class="mobile-phone">
+                <i class="fas fa-phone"></i>
+                <span>Call: 079 025 6695</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="contact-hero-bg"></div>
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Get Your Free Quote Today</h1>
+                <p>Based in <strong>Florida, Roodepoort</strong>, serving Roodepoort and surrounding areas</p>
+                <div class="location-badge">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Service Area: Roodepoort & Surroundings</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="form-header">
+                        <h2>Request a Quote</h2>
+                        <p>Fill out the form below and we'll get back to you within 2 hours</p>
+                    </div>
+                    
+                    <form id="quoteForm" class="quote-form">
+                        <!-- Name Field -->
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required placeholder="John Smith">
+                            <div class="error-message" id="name-error"></div>
+                        </div>
+                        
+                        <!-- Contact Fields -->
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="079 025 6695">
+                                <div class="error-message" id="phone-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="your@email.com">
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                        </div>
+                        
+                        <!-- Service Type -->
+                        <div class="form-group">
+                            <label for="service">Service Needed *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="Residential Cleaning">Residential Cleaning</option>
+                                <option value="Office Cleaning">Office Cleaning</option>
+                                <option value="Deep Cleaning">Deep Cleaning</option>
+                                <option value="Move-In/Out Cleaning">Move-In/Out Cleaning</option>
+                                <option value="Window Cleaning">Window Cleaning</option>
+                                <option value="Carpet Cleaning">Carpet Cleaning</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error-message" id="service-error"></div>
+                        </div>
+                        
+                        <!-- Message -->
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Tell us about your cleaning needs..."></textarea>
+                        </div>
+                        
+                        <!-- Submit Button -->
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            Get Free Quote
+                        </button>
+                        
+                        <!-- Success Message (Hidden by default) -->
+                        <div id="success-message" class="success-message">
+                            <i class="fas fa-check-circle"></i>
+                            <h3>Thank You!</h3>
+                            <p>Your quote request has been received. We'll contact you shortly.</p>
+                            <button type="button" class="btn btn-secondary" onclick="resetForm()">
+                                Send Another Request
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <!-- Contact Cards -->
+                    <div class="info-grid">
+                        <div class="info-card call-card">
+                            <div class="info-card-header">
+                                <div class="info-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h3>Call Us</h3>
+                                    <p>Available 24/7</p>
+                                </div>
+                            </div>
+                            <a href="tel:0790256695" class="info-value">079 025 6695</a>
+                        </div>
+                        
+                        <div class="info-card email-card">
+                            <div class="info-card-header">
+                                <div class="info-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h3>Email Us</h3>
+                                    <p>Quick response</p>
+                                </div>
+                            </div>
+                            <a href="mailto:floridamarket66@gmail.com" class="info-value">floridamarket66@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Service Area -->
+                    <div class="info-box">
+                        <div class="info-box-header">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Service Area</h3>
+                        </div>
+                        <ul class="service-areas">
+                            <li><i class="fas fa-circle"></i> Florida</li>
+                            <li><i class="fas fa-circle"></i> Florida Hills</li>
+                            <li><i class="fas fa-circle"></i> Roodepoort CBD</li>
+                            <li><i class="fas fa-circle"></i> Horison</li>
+                            <li><i class="fas fa-circle"></i> Roodekrans</li>
+                            <li><i class="fas fa-circle"></i> Wilropark</li>
+                            <li><i class="fas fa-circle"></i> Constantia Kloof</li>
+                            <li><i class="fas fa-circle"></i> Weltevredenpark</li>
+                            <li><i class="fas fa-circle"></i> Honeydew</li>
+                            <li><i class="fas fa-circle"></i> Strubens Valley</li>
+                            <li><i class="fas fa-circle"></i> Maraisburg</li>
+                            <li><i class="fas fa-circle"></i> Discovery</li>
+                            <li><i class="fas fa-circle"></i> And surrounding areas of Gauteng</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Working Hours -->
+                    <div class="info-box">
+                        <div class="info-box-header">
+                            <i class="fas fa-clock"></i>
+                            <h3>Working Hours</h3>
+                        </div>
+                        <ul class="working-hours">
+                            <li>
+                                <span>Monday - Friday</span>
+                                <span>7:00 AM - 8:00 PM</span>
+                            </li>
+                            <li>
+                                <span>Saturday</span>
+                                <span>8:00 AM - 6:00 PM</span>
+                            </li>
+                            <li>
+                                <span>Sunday</span>
+                                <span>9:00 AM - 4:00 PM</span>
+                            </li>
+                            <li>
+                                <span>Emergency</span>
+                                <span>24/7 Available</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Quick Action -->
+                    <div class="quick-action">
+                        <p>Need immediate assistance?</p>
+                        <a href="https://wa.me/27790256695" class="whatsapp-action" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                            Chat on WhatsApp
+                        </a>
+                    </div>
+                    
+                    <!-- Booking Section -->
+                    <div class="booking-section" id="booking">
+                        <h3>Book a Service</h3>
+                        <p>Prefer to book directly? Choose your service:</p>
+                        <div class="booking-buttons">
+                            <a href="tel:0790256695" class="btn btn-secondary">
+                                <i class="fas fa-calendar-check"></i>
+                                Book by Phone
+                            </a>
+                            <a href="mailto:floridamarket66@gmail.com" class="btn btn-outline">
+                                <i class="fas fa-envelope"></i>
+                                Book by Email
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Map placeholder: replace the iframe src with your Google Maps embed link or
+                         replace the whole block with an <img> pointing to images/map/map.jpg -->
+                    <div class="map-box">
+                        <h3>Our Location</h3>
+                        <div class="map-embed">
+                            <!-- Embedded map centered on Roodepoort -->
+                            <iframe src="https://maps.google.com/maps?q=Roodepoort&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" title="Roodepoort map"></iframe>
+                            <!-- Static fallback for environments where iframes are blocked or JS is disabled -->
+                            <noscript>
+                                <img src="images/map/map.jpg" alt="Map to Roodepoort" style="width:100%;height:auto;display:block;border:0;" />
+                            </noscript>
+                        </div>
+                        <p class="map-note">If you don't have an embed, you can place a JPG map image at <code>images/map/map.jpg</code> and replace the iframe with an <code>&lt;img&gt;</code> tag.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Get answers to common questions about our cleaning services</p>
+            </div>
+            
+            <div class="faq-container">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How quickly can you schedule a cleaning?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We offer same-day service for urgent cleaning needs. For regular bookings, we typically schedule within 24-48 hours. Emergency cleaning services are available 24/7.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What areas do you serve?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We are based in Florida, Roodepoort and serve the entire Roodepoort area including Florida Hills, Horison, Roodekrans, Wilropark, and surrounding neighborhoods.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are your cleaning products safe for pets and children?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! We use eco-friendly, non-toxic cleaning products that are safe for children, pets, and the environment. All our products are biodegradable and leave no harmful residues.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What is included in your standard cleaning service?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our standard cleaning includes dusting, vacuuming, mopping, bathroom sanitization, kitchen cleaning, window cleaning (interior), and trash removal. Additional services can be added as needed.</p>
+                    </div>
+                </div>
+                
+                <!-- FAQ Item 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Are your cleaners insured and background checked?
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Absolutely. All our cleaners undergo thorough background checks, are fully insured and bonded, and receive continuous professional training.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand Column -->
+                <div class="footer-column">
+                    <a href="index.html" class="footer-logo">
+                        <div class="logo-icon">
+                            <img src="images/logo.jpeg" alt="Ubuntu Cleaning Service Logo" class="logo-image">
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">UBUNTU</span>
+                            <span class="logo-sub">CLEANING SERVICE</span>
+                        </div>
+                    </a>
+                    <p class="footer-about">
+                        Professional cleaning services you can trust. Serving Florida, Roodepoort and surrounding areas with excellence.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#services">Services</a></li>
+                        <li><a href="index.html#why-us">Why Choose Us</a></li>
+                        <li><a href="contact.html">Get Quote</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div class="footer-column">
+                    <h3>Our Services</h3>
+                    <ul class="footer-links">
+                        <li><a href="contact.html">Residential Cleaning</a></li>
+                        <li><a href="contact.html">Office Cleaning</a></li>
+                        <li><a href="contact.html">Deep Cleaning</a></li>
+                        <li><a href="contact.html">Move-In/Out</a></li>
+                        <li><a href="contact.html">Window Cleaning</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Based in Florida, Roodepoort<br>Serving surrounding areas</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:0790256695">079 025 6695</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:floridamarket66@gmail.com">floridamarket66@gmail.com</a>
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/27790256695" class="whatsapp-btn" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Ubuntu Cleaning Service. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/form.js"></script>
+    
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <img src="images/logo.jpeg" alt="Ubuntu Cleaning Service Logo" class="loader-image">
+            </div>
+            <p>Loading...</p>
+        </div>
+    </div>
+</body>
+</html>
